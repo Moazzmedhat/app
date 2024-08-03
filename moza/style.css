@@ -1,0 +1,313 @@
+.header{
+    background-image: url("./bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .roboto-thin {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.bebas-neue-regular {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.pt-sans-regular {
+font-family: "PT Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.pt-sans-bold {
+font-family: "PT Sans", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.pt-sans-regular-italic {
+font-family: "PT Sans", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.pt-sans-bold-italic {
+font-family: "PT Sans", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.roboto-light {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.roboto-regular {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.roboto-bold {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.roboto-black {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.roboto-thin-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.roboto-light-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.roboto-regular-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.roboto-medium-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.roboto-bold-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.roboto-black-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+
+.roboto-medium {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+.navbar-brand {
+font-size: 2rem;
+margin-left: 20px;
+}
+
+.stylish{
+font-size: 70px;
+}
+
+
+
+.btn1{
+color: rgb(222, 220, 220);
+border: 2px black solid;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(20, 57, 102);
+padding-top: 20px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 20px;
+border-radius: 8px;
+text-decoration: none;
+}
+
+.navbar-toggler{
+background-color: rgba(128, 127, 126, 0.407);
+height: 40px;
+
+
+}
+
+
+
+
+.btn1:hover{
+background-color: #0056b3; 
+color: #e0e0e0;
+}
+
+.offcanvas{
+background-color: rgb(20, 57, 102);
+transition: transform 0.4s ease-in-out;
+}
+.space{
+color: black;
+font-weight: bolder;
+}
+.nav-link:hover{
+background-color: #296db6; 
+color: #e0e0e0;
+padding: 10px;
+}
+.content-section{
+height: 400px;
+
+}
+.container{
+padding-top: 120px;
+}
+.service-icon {
+width: 100px; /* Increase the width */
+height: 100px; /* Increase the height */
+line-height: 100px; /* Center the icon vertically */
+font-size: 2rem; /* Increase the icon size */
+display: flex; /* Use flexbox for centering */
+justify-content: center; /* Center the icon horizontally */
+align-items: center; /* Center the icon vertically */
+}
+.content-section1{
+height: 500px;
+}
+
+.pro{
+color: rgb(208, 230, 10);
+padding-left: 4px;
+
+}
+
+
+
+
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+}
+
+
+
+.portfolio-item .caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+
+.caption .caption-content {
+    color: white;
+    margin: auto 2rem 2rem;
+}
+
+.caption-content h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.caption-content p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+.portfolio-item .caption {
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    clip-path: inset(0px);
+}
+
+.caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.caption img {
+    transition: clip-path 0.25s ease-out;
+    clip-path: inset(-1px);
+}
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+
+}
+
+#portfolio .container{
+    padding-top:0px;
+    padding-bottom: 100px;
+}
+
+
+.button{
+    position: relative;
+    top: 435px;
+    a{
+        position: relative;
+        bottom: 20px;
+    }
+    h2{
+        position: relative;
+        bottom: 25px;
+    }
+}
+
+#map {
+    padding-top: 70px;
+    height: 70vh;
+  }
+  
+  .mapp{
+    padding-top: 25rem;
+  }
+
+  .footer{
+    padding-bottom: 3rem;
+  }
+
+
+  .button{
+    height: 300px;
+    margin-top: 200px;
+  }
+
+@media only screen and (max-width: 769px) and (min-width: 100px)  {
+    .content-section1{
+        height: 1120px;
+    }
+.content-section2{
+    height: 900px;
+}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 770px)  {
+    .content-section1{
+        height: 700px;
+    }
+.content-section2{
+    height: 900px;
+}
+}
+@media only screen and (min-width: 992px)  {
+    
+.content-section2{
+    height: 160px;
+}
+}
